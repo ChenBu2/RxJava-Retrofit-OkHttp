@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="ZhikeAppTheme" parent="AppTheme.NoActionBar">
+        <!--ActionBar背景  -->
+        <item name="colorPrimary">@color/color_ff9600</item>
+        <item name="colorPrimaryDark">@color/color_ff9000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--页面背景-->
+        <item name="android:windowBackground">@color/color_ffffff</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="text_15_5d5d5d">
+        <item name="android:textColor">@color/color_5d5d5d</item>
+        <item name="android:textSize">@dimen/dim15</item>
+    </style>
+
+    <style name="text_15_444444">
+        <item name="android:textColor">@color/color_444444</item>
+        <item name="android:textSize">@dimen/dim15</item>
+    </style>
+
+</resources>
